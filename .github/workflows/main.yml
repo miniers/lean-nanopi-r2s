@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Project
         uses: actions/checkout@v2
         with:
-          ref: openwrt-lean
+          ref: master
 
       - name: Initialize Environment
         env:
