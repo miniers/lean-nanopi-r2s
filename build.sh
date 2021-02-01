@@ -19,6 +19,9 @@ git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git l
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-filebrowser lean/luci-app-filebrowser
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/filebrowser lean/filebrowser
 
+#dockerman
+svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman lean/luci-app-dockerman
+
 # openclash
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash lean/luci-app-openclash
 
